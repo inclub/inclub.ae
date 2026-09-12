@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="stripes" width="28" height="28" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#e9ebea"/>
+      <rect width="14" height="28" fill="#e2e5e4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#stripes)"/>
+  <rect width="800" height="600" fill="#f3f5f4" fill-opacity="0.35"/>
+  <g stroke="#9aa0a6" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="300" y="235" width="200" height="140" rx="10"/>
+    <circle cx="345" cy="275" r="12"/>
+    <path d="M300 350l55-55 40 35 45-50 60 70"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" letter-spacing="2" fill="#6a7074">YOUR IMAGE HERE</text>
+</svg>
