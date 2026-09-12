@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inclub Digital Solution — Think. Create. Elevate.</title>
+<meta name="description" content="Inclub Digital Solution — Dubai-based digital agency offering web development, branding, digital marketing and IT solutions.">
+<link rel="icon" href="assets/logo-mark.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="back-to-top" id="backToTop" aria-label="Back to top" role="button" tabindex="0">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</div>
+
+<a href="https://wa.me/971547295871" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+  <span class="whatsapp-tooltip">Chat with us</span>
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.379.694 4.596 1.885 6.463L4 29l7.717-1.859A11.93 11.93 0 0016.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm.001 21.6a9.56 9.56 0 01-4.868-1.334l-.349-.207-3.65.879.89-3.556-.228-.365A9.553 9.553 0 016.4 15c0-5.294 4.307-9.6 9.601-9.6 5.293 0 9.6 4.306 9.6 9.6 0 5.294-4.307 9.6-9.6 9.6zm5.264-7.19c-.288-.144-1.706-.842-1.97-.938-.264-.096-.456-.144-.648.144-.192.288-.744.938-.912 1.13-.168.192-.336.216-.624.072-.288-.144-1.216-.448-2.316-1.428-.856-.763-1.434-1.706-1.602-1.994-.168-.288-.018-.444.126-.588.13-.129.288-.336.432-.504.144-.168.192-.288.288-.48.096-.192.048-.36-.024-.504-.072-.144-.648-1.562-.888-2.14-.234-.562-.472-.486-.648-.495l-.552-.01c-.192 0-.504.072-.768.36-.264.288-1.008.984-1.008 2.4 0 1.416 1.032 2.784 1.176 2.976.144.192 2.03 3.1 4.92 4.347.687.297 1.223.474 1.641.606.689.219 1.316.188 1.812.114.553-.083 1.706-.697 1.947-1.37.24-.672.24-1.248.168-1.37-.072-.12-.264-.192-.552-.336z"/></svg>
+</a>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/logo.png" alt="Inclub Digital Solution"></a>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html" class="nav-link" data-nav>Home</a>
+      <a href="about.html" class="nav-link" data-nav>About</a>
+      <a href="services.html" class="nav-link" data-nav>Services</a>
+      <a href="portfolio.html" class="nav-link" data-nav>Portfolio</a>
+      <a href="why-inclub.html" class="nav-link" data-nav>Why Inclub</a>
+      <a href="contact.html" class="nav-link" data-nav>Contact</a>
+    </nav>
+
+    <a href="contact.html" class="btn btn-primary btn-sm header-cta">Start a Project <span class="arrow">→</span></a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+</header>
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+      <a href="index.html" data-nav-mobile>Home</a>
+      <a href="about.html" data-nav-mobile>About</a>
+      <a href="services.html" data-nav-mobile>Services</a>
+      <a href="portfolio.html" data-nav-mobile>Portfolio</a>
+      <a href="why-inclub.html" data-nav-mobile>Why Inclub</a>
+      <a href="contact.html" data-nav-mobile>Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary" data-nav-mobile>Start a Project <span class="arrow">→</span></a>
+  </div>
+
+
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <video class="hero-bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="assets/background_play.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-particles" id="heroParticles"></div>
+
+  <div class="container hero-inner">
+    <p class="eyebrow reveal">Digital Solutions for Modern Businesses</p>
+    <h1 class="hero-title reveal">
+      <span class="line line-white">THINK.</span>
+      <span class="line line-lime">CREATE.</span>
+      <span class="line line-white">ELEVATE.</span>
+    </h1>
+    <p class="hero-sub reveal">Digital solutions designed to help modern businesses build, grow and stand out in the digital world.</p>
+
+    <div class="hero-actions reveal">
+      <a href="contact.html" class="btn btn-primary">Start a Project <span class="arrow">→</span></a>
+      <a href="services.html" class="btn btn-outline">Explore Our Services</a>
+    </div>
+
+    <div class="hero-stats reveal">
+      <div class="stat"><span class="stat-num" data-count="50">0</span><span class="stat-suffix">+</span><span class="stat-label">Projects</span></div>
+      <div class="stat"><span class="stat-num" data-count="30">0</span><span class="stat-suffix">+</span><span class="stat-label">Happy Clients</span></div>
+      <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-suffix">+</span><span class="stat-label">Years</span></div>
+      <div class="stat stat-text"><span class="stat-num-static">Dubai</span><span class="stat-label">UAE</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <div class="marquee-item">Web Development <span>●</span></div>
+    <div class="marquee-item">Branding <span>●</span></div>
+    <div class="marquee-item">Digital Marketing <span>●</span></div>
+    <div class="marquee-item">IT Solutions <span>●</span></div>
+    <div class="marquee-item">Dubai, UAE <span>●</span></div>
+    <div class="marquee-item">Think. Create. Elevate. <span>●</span></div>
+    <div class="marquee-item">Web Development <span>●</span></div>
+    <div class="marquee-item">Branding <span>●</span></div>
+    <div class="marquee-item">Digital Marketing <span>●</span></div>
+    <div class="marquee-item">IT Solutions <span>●</span></div>
+    <div class="marquee-item">Dubai, UAE <span>●</span></div>
+    <div class="marquee-item">Think. Create. Elevate. <span>●</span></div>
+  </div>
+</div>
+
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our Process</p>
+      <h2 class="section-title section-title-light">From Idea to Impact</h2>
+    </div>
+
+    <div class="process-track reveal">
+      <svg class="process-line" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M60 60 C 300 10, 500 110, 740 60 S 1080 20, 1140 60" />
+      </svg>
+
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="process-index">01</span>
+          <h4>Discover</h4>
+          <p>Understand the business, audience and goals.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-index">02</span>
+          <h4>Strategize</h4>
+          <p>Develop the right digital strategy.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-index">03</span>
+          <h4>Create</h4>
+          <p>Design and build the digital experience.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-index">04</span>
+          <h4>Elevate</h4>
+          <p>Launch, optimize and grow.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="vision" id="vision">
+  <div class="vision-bg" style="background-image:url('assets/our-mission.png')" id="visionBg"></div>
+  <div class="vision-overlay"></div>
+  <div class="container vision-inner reveal">
+    <h2 class="vision-title">
+      <span class="line-lime">YOUR VISION</span>
+      <span class="line-white">OUR MISSION</span>
+    </h2>
+    <p class="vision-text">We combine creativity, technology, and strategy to grow your business in the digital world.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-inner reveal">
+    <div class="cta-copy">
+      <h2>Have an idea?<br><span class="lime">Let's build it.</span></h2>
+      <p>Tell us what you're building and let's turn your vision into a digital experience that stands out.</p>
+      <a href="contact.html" class="btn btn-primary">Start Your Project <span class="arrow">→</span></a>
+    </div>
+    <img src="assets/inclub_icon.png" alt="Inclub" class="cta-robot">
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Inclub Digital Solution">
+      <p>Digital solutions for modern businesses.<br>Think. Create. Elevate.</p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Our Services</h5>
+      <a href="services.html">Web Design & Development</a>
+      <a href="services.html">UI/UX Design</a>
+      <a href="services.html">Graphic Design & Branding</a>
+      <a href="services.html">Motion Graphics & Animation</a>
+      <a href="services.html">Photography</a>
+      <a href="services.html">Digital Marketing</a>
+      <a href="services.html">AI Creative</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Follow Us</h5>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=61593820896204" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 20v-6.5h2.2l.3-2.5h-2.5v-1.6c0-.7.3-1.2 1.2-1.2h1.3V6c-.2 0-1-.1-1.9-.1-1.9 0-3.2 1.1-3.2 3.3v1.8H8.5v2.5h2.4V20h2.6z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.instagram.com/inclubdigitalsolution/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/inclubdigitalsolution/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M7 10v7M7 7v.01M11 17v-4.5a2 2 0 014-.2M15 17v-4.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+        <a href="https://wa.me/971547295871" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 12.3c0 2-1.7 3.7-3.7 3.7-.6 0-1.2-.1-1.7-.4l-2 .5.5-1.9a3.6 3.6 0 01-.5-1.9c0-2 1.7-3.7 3.7-3.7s3.7 1.7 3.7 3.7z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@inclubdigitalsolution" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><path d="M13.75 6.3h1.85c.16 1.42 1.02 2.6 2.4 3.02v1.9c-.87-.05-1.68-.33-2.4-.79v4.55a3.86 3.86 0 11-3.86-3.86c.14 0 .28.01.41.03v1.92a1.96 1.96 0 101.6 1.93V6.3z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Inclub Digital Solution. All rights reserved.</span>
+    <span class="footer-legal"><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
